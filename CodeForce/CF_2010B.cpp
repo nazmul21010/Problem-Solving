@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b;
+    cin >> a >> b;
+    int arr[] = {1, 2, 3};
+    for (int i = 0; i < 3; i++)
+    {
+        if (arr[i] != a && arr[i] != b)
+        {
+            cout << arr[i] << endl;
+        }
+    }
+    return 0;
+}
