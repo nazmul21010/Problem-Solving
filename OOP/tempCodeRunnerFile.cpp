@@ -1,0 +1,1 @@
+ cout << max1 << max2 << endl;
